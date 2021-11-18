@@ -83,8 +83,18 @@
 // - створити функцію яка приймає будь-яку кількість чисел, повертає найменьше,
 // а виводить найбільше (Math використовувати заборонено);
 
-
-
+// function funMinMax(){
+//     let min=arguments[0];
+//     let max=arguments[0];
+//     for (const item of arguments){
+//         if(item >max) max=item;
+//         if(item <min) min=item;
+//     }
+//     console.log('max',max);
+//     return min;
+// }
+// const min = funMinMax (1,45,4,8,41,7896,4,432,712)
+// console.log('min', min)
 
 // - створити функцію яка заповнює масив рандомними числами
 // (цей код генерує рандомні числа в діапазоні від 0 до 100 - Math.round(Math.random()*100)) та виводить його.
