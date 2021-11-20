@@ -2,13 +2,11 @@
 // складає або конкатенує їх між собою.
 
 
-function fun  (arg1,arg2,action) {
-    if (action === arg1) {
-       return arg1;
-    }else if (action === arg1,arg2)
-        return arg1+arg2;
+function fun  (arg1,arg2) {
+
+
 }
-let ret = fun(2,5);
+let ret = fun(25,10);
 console.log(ret)
 
 
@@ -43,6 +41,12 @@ console.log(ret)
 
 
 
+
+
+
 //     - Створити функцію яка приймає масив будь яких объектів, та повертає масив значень всіх обєктів
 // EXAMPLE:
 //     [{name: 'Dima', age: 13}, {model: 'Camry'}]  ===> [ Dima, 13, Camry ]
+
+
+
