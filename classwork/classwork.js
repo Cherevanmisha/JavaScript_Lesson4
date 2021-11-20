@@ -99,9 +99,38 @@
 // - створити функцію яка заповнює масив рандомними числами
 // (цей код генерує рандомні числа в діапазоні від 0 до 100 - Math.round(Math.random()*100)) та виводить його.
 
+// function numRandom() {
+//     let arr = [];
+//     for (let i = 0; i < 100; i++) {
+//         arr.push(Math.round(Math.random() * 100));
+//     }
+//     return arr;
+// }
+// let num = numRandom();
+// console.log(num)
+
 
 // - створити функцію яка заповнює масив рандомними числами в діапазоні
 // від 0 до limit. limit - аргумент, який характеризує кінцеве значення діапазону.
-
+//
+// function numRandom(limit) {
+//     let arr = [];
+//     for (let i = 0; i < numRandom.length; i++) {
+//         arr.push(Math.round(Math.random() * limit));
+//     }
+//     return arr;
+// }
+// let num = numRandom(100);
+// console.log(num)
 
 // - Функція приймає масив та робить з нього новий масив в зворотньому порядку. [1,2,3] -> [3, 2, 1].
+
+// function reverse(arr){
+//     let arr2 = [];
+//     for (let i = 0; i<= arr.length; i++){
+//         arr2.push(arr.reverse(i));
+//     }
+//     return arr2;
+// }
+// let rev = reverse([1,2,3]);
+// console.log(rev)
