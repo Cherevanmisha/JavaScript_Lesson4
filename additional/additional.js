@@ -2,12 +2,12 @@
 // складає або конкатенує їх між собою.
 
 
-function fun  (arg1,arg2) {
-
-
-}
-let ret = fun(25,10);
-console.log(ret)
+// function fun  (arg1,arg2) {
+// if ( )
+//
+// }
+// let ret = fun(25,10);
+// console.log(ret)
 
 
 
@@ -39,6 +39,19 @@ console.log(ret)
 // EXAMPLE:
 //     [{name: 'Dima', age: 13}, {model: 'Camry'}]  ===> [ name, age, model ]
 
+// let arr = [{name: 'Dima', age: 13}, {model: 'Camry'}];
+// let arr2 = [];
+// function funObj() {
+//     for (let i = 0; i < arr.length; i++) {
+//         const arrElement = arr[i];
+//         for (let arrkey in arrElement){
+//             arr2[arr2.length] = arrkey;
+//         }
+//     }
+// return arr2;
+// }
+// funObj(arr)
+// console.log(arr2)
 
 
 
@@ -47,6 +60,20 @@ console.log(ret)
 //     - Створити функцію яка приймає масив будь яких объектів, та повертає масив значень всіх обєктів
 // EXAMPLE:
 //     [{name: 'Dima', age: 13}, {model: 'Camry'}]  ===> [ Dima, 13, Camry ]
+//
+// let arr = [{name: 'Dima', age: 13}, {model: 'Camry'}];
+// let arr2 = [];
+// function funObj() {
+//     for (let i = 0; i < arr.length; i++) {
+//         const arrElement = arr[i];
+//         for (let arrkey in arrElement){
+//             arr2.push(arrElement[arrkey])
+//         }
+//     }
+//     return arr2;
+// }
+// funObj(arr)
+// console.log(arr2)
 
 
 
