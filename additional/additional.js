@@ -2,12 +2,17 @@
 // складає або конкатенує їх між собою.
 
 
-// function fun  (arg1,arg2) {
-// if ( )
-//
-// }
-// let ret = fun(25,10);
-// console.log(ret)
+function fun  (arg1,arg2) {
+if (arg1===1 ){
+    console.log(arg1)
+}else {
+    console.log( arg1 + arg2);
+
+}
+
+}
+let ret = fun(10,15);
+console.log(ret)
 
 
 
